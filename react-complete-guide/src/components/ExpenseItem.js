@@ -13,6 +13,7 @@ const year = props.date.getFullYear();
                 <div>{month}</div>
                 <div>{year}</div>
                 <div>{day}</div>
+                <h2>hello</h2>
             </div>
             <div className='expense-item__description'>
                 <h2>{props.title}</h2>
